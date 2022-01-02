@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base /* series of resets (ex: margin, padding, font-size, ectc...) */ {
+	/* Here you'll insert base styles (ex: :root, body, variables, h1 etc...) */
+}
+
+@layer components /* styles for components class (ex: container ) */ {
+	/* Here you'll insert components styles (ex: buttons, cards, etc...) */
+}
+
+@layer utilities /* series of utilities class (ex: pt, mt, shadow, grid-cols-2, etc...) */ {
+	/* Here you'll insert custom utilities classes (ex: .filter-none { filter: none; ) */
+}
